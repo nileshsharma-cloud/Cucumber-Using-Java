@@ -7,45 +7,105 @@
   <dependencies>
   
   <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-	<dependency>
-    	<groupId>io.cucumber</groupId>
-    	<artifactId>cucumber-java</artifactId>
-    	<version>6.2.2</version>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>6.2.2</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>6.2.2</version>
+    <scope>test</scope>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-core</artifactId>
     <version>6.2.2</version>
 </dependency>
-	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>gherkin</artifactId>
-    <version>14.0.1</version>
-</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java8</artifactId>
     <version>6.2.2</version>
 </dependency>
-	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>6.2.2</version>
+    <scope>test</scope>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>6.2.2</version>
 </dependency>
-	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
 <dependency>
     <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-gherkin -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-gherkin</artifactId>
     <version>6.2.2</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-expressions -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-expressions</artifactId>
+    <version>10.2.1</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>14.0.1</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.3.0</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.141.59</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.6.2</version>
+    <scope>test</scope>
+</dependency>
+  
+	<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-runner</artifactId>
+    <version>1.6.2</version>
     <scope>test</scope>
 </dependency>
 	
